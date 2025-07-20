@@ -4,7 +4,7 @@ An end‑to‑end Python toolkit for piloting a DJI Tello drone **manually via 
 
 ---
 
-## ✈️ Features
+## Features
 
 * **Manual RC control** using `pygame` with smooth 25 cm / 36 ° per‑tick motion primitives.
 * **Auto take‑off / landing** helpers.
@@ -15,7 +15,7 @@ An end‑to‑end Python toolkit for piloting a DJI Tello drone **manually via 
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 
 | Path               | Purpose                                                                                                                       |
 | ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -28,7 +28,7 @@ An end‑to‑end Python toolkit for piloting a DJI Tello drone **manually via 
 
 ---
 
-## ⛓️ Requirements
+## Requirements
 
 * **Hardware**
 
@@ -68,7 +68,7 @@ pip install djitellopy opencv-python pygame numpy
 
 ---
 
-## 🎮 Keyboard Controls (Manual Mode)
+## Keyboard Controls (Manual Mode)
 
 | Key       | Action              | Remarks                           |
 | --------- | ------------------- | --------------------------------- |
@@ -102,7 +102,7 @@ pid = [0.4, 0.4, 0] # PID gains (P, D, I)
 
 ---
 
-## 📈 Flight‑Path Plotting
+## Flight‑Path Plotting
 
 During manual control, a separate OpenCV window shows a **top‑down 2‑D trace** of the drone’s motion (red dot). This provides quick feedback when GPS is unavailable.
 
@@ -111,7 +111,7 @@ During manual control, a separate OpenCV window shows a **top‑down 2‑D trace
 
 ---
 
-## 🛠️ Development Notes
+## Development Notes
 
 * **Motion primitives** are mapped through `control.transformation()` returning a 4‑element RC vector `[left/right, fwd/back, up/down, yaw]`.
 * The `keyboard` module decouples input so you can later swap in gamepad or ROS topics.
@@ -119,7 +119,7 @@ During manual control, a separate OpenCV window shows a **top‑down 2‑D trace
 
 ---
 
-## ⚠️ Safety & Disclaimer
+## Safety & Disclaimer
 
 * Test in a **spacious indoor area** with prop guards.
 * Maintain visual line‑of‑sight at all times.
@@ -127,7 +127,7 @@ During manual control, a separate OpenCV window shows a **top‑down 2‑D trace
 
 ---
 
-## 📜 Licence
+## Licence
 
-MIT © 2025 Your Name
+MIT © 2025 Enze Zhang
 
