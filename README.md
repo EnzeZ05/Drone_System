@@ -50,7 +50,7 @@ pip install djitellopy opencv-python pygame numpy
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Power on the drone and connect your PC to the **TELLO‑XXXXXX** Wi‑Fi network.
 2. Open a terminal in the repo root.
@@ -84,7 +84,7 @@ pip install djitellopy opencv-python pygame numpy
 
 ---
 
-## 🤖 Face‑Tracking Mode
+## Face‑Tracking Mode
 
 Running `face_tracking.py` will:
 
